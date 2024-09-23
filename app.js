@@ -5,7 +5,6 @@
 //JSON.parse(string)
 
 const local = JSON.parse(localStorage.getItem('user'));
-const texteSuite = document.querySelector('.suite');
 
 if(local !== null)
 {
